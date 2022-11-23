@@ -21,7 +21,7 @@ CITY=$(curl -s ipinfo.io/city )
 WKT=$(curl -s ipinfo.io/timezone )
 IPVPS=$(curl -s ipv4.icanhazip.com )
 	echo "क═══════क⊹⊱✫⊰⊹ Welcome To Premium Script Menu ⊹⊱✫⊰⊹क═══════क "
-	echo "क═══════क⊹⊱✫⊰⊹     Remake By MZX OFFICIAL    ⊹⊱✫⊰⊹क═══════क "
+	echo "क═══════क⊹⊱✫⊰⊹     Remake By TegarINET    ⊹⊱✫⊰⊹क═══════क "
 	echo " "
 	cname=$( awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo )
 	cores=$( awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo )
