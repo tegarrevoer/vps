@@ -4,4 +4,4 @@ clear
 neofetch
 cat /root/log-install.txt
 echo ""
-echo "AutoScript By MZX OFFICIAL"
+echo "AutoScript By TegarINET"
