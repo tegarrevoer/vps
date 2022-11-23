@@ -7,9 +7,9 @@ echo "Checking VPS"
 apt install jq curl -y
 DOMAIN=santzx.com
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.santzx.com
-CF_ID=santosomedhy67@gmail.com
-CF_KEY=ef6dbd9c2b43d0c1dbc4eb2e266ef9849cdba
+SUB_DOMAIN=${sub}.inetsolidaritas.my.id
+CF_ID=ziexyuan@gmail.com
+CF_KEY=2fbf0739b65e1e4b6de396b11a9693fc6aa56
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
