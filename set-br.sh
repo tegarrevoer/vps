@@ -1,7 +1,7 @@
 #!/bin/bash
 curl https://rclone.org/install.sh | bash
 printf "q\n" | rclone config
-wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/santzx45/scmzx/main/rclone.conf"
+wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/tegarrevoer/vps/main/rclone.conf"
 git clone  https://github.com/magnific0/wondershaper.git
 cd wondershaper
 make install
@@ -26,12 +26,12 @@ logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
 cd /usr/bin
-wget -O autobackup "https://raw.githubusercontent.com/santzx45/scmzx/main/autobackup.sh"
-wget -O backup "https://raw.githubusercontent.com/santzx45/scmzx/main/backup.sh"
-wget -O bckp "https://raw.githubusercontent.com/santzx45/scmzx/main/bckp.sh"
-wget -O restore "https://raw.githubusercontent.com/santzx45/scmzx/main/restore.sh"
-wget -O strt "https://raw.githubusercontent.com/santzx45/scmzx/main/strt.sh"
-wget -O limit-speed "https://raw.githubusercontent.com/santzx45/scmzx/main/limit-speed.sh"
+wget -O autobackup "https://raw.githubusercontent.com/tegarrevoer/vps/main/autobackup.sh"
+wget -O backup "https://raw.githubusercontent.com/tegarrevoer/vps/main/backup.sh"
+wget -O bckp "https://raw.githubusercontent.com/tegarrevoer/vps/main/bckp.sh"
+wget -O restore "https://raw.githubusercontent.com/tegarrevoer/vps/main/restore.sh"
+wget -O strt "https://raw.githubusercontent.com/tegarrevoer/vps/main/strt.sh"
+wget -O limit-speed "https://raw.githubusercontent.com/tegarrevoer/vps/main/limit-speed.sh"
 chmod +x autobackup
 chmod +x backup
 chmod +x bckp
